@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "shine_hit_messages",
+  "version": "${version}",
+  "name": "SHINE Hit Messages",
+  "description": "Shows CRIT, AHH.. and YEAHH hit feedback messages on the right side of the HUD when you land hits.",
+  "authors": ["SHINE"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.shine.hitmod.ShineHitMessagesClient"]
+  },
+  "license": "MIT",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.8",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
